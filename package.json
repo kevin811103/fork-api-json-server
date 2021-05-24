@@ -1,0 +1,16 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "fork-api-json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Eror: no test specified\" && exit 1",
+    "pm2": "pm2 start --name json-server index.js"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}
